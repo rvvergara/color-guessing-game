@@ -1,0 +1,85 @@
+/*
+COLOR GUESSING GAME
+*/
+
+body	{
+	background-color: #232323;
+	margin: 0;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1	{
+	color: white;
+	text-align: center;
+	background-color: #2a5160;
+	margin: 0 auto;
+	text-shadow: 2px 2px #232323;
+}
+
+small		{
+	font-size: 0.6em;
+}
+
+.navbar-container	{
+	background-color: #000;
+}
+
+.navbar	{
+	max-width: 500px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	padding: 0 1.66%; 
+	height: 22px;
+}
+
+.navbar div	{
+	float: left;
+	color: white;
+	margin: 0 10px;
+	height: 19px;
+	padding: 3px 5px 0 5px;
+	font-weight: bold;
+}
+
+#instructions	{
+	max-width: 600px;
+	margin: 0 auto;
+	background-color: #ffc18b;
+	padding: 10px;
+	font-size: 0.85em;
+	color: #141210;
+}
+
+a 	{
+	text-decoration: none;
+	position: relative;
+	left: 98%;
+	color: #403838;
+	font-size: 1.2em;
+}
+
+
+.highlight	{
+	background-color: white;
+	color: black !important;
+}
+
+.container	{
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.square	{
+	width: 30%;
+	padding-bottom: 30%;
+	margin: 1.66%;
+	float: left;
+	border-radius: 10px;
+}
+
+.hover	{
+	background-color: white;
+	color: black !important;
+}
